@@ -1,6 +1,6 @@
   <!--=================================
     Banner -->
-    <section class="banner-05 bg-holder space-ptb" style="background-image: url(images/bg/10.jpg);">
+    <section class="banner-05 bg-holder space-ptb" style="background-image: url(<?php echo base_url();?>images/bg/10.jpg);">
     <div class="container">
       <div class="row">
         <div class="col-md-8 offset-md-2">
