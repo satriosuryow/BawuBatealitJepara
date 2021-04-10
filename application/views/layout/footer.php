@@ -20,9 +20,9 @@
               <div class="footer-link">
                 <ul class="list-unstyled mb-0">
                   <li><a href="<?php echo base_url(''); ?>">Beranda</a></li>
-                  <li><a href="<?php echo base_url(''); ?>">Sejarah</a></li>
+                  <li><a href="<?php echo base_url('sejarah'); ?>">Sejarah</a></li>
                   <li><a href="<?php echo base_url('pendidikan/courselist'); ?>">Pendidikan</a></li>
-                  <li><a href="<?php echo base_url('pendidikan/gallery'); ?>">Pages</a></li>
+                  <li><a href="<?php echo base_url('pages/gallery'); ?>">Pages</a></li>
                   <li><a href="<?php echo base_url('blog/bloggeneral'); ?>">Blog</a></li>
                 </ul>
                 <ul class="list-unstyled mb-0">

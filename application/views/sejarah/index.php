@@ -38,7 +38,7 @@
                           </div>
                           <div class="timeline-panel">
                               <div class="timeline-heading">
-                                  <h4>Panitia Pembangunan</h4>
+                                  <h4>Panitia Pembangunan Madrasah Diniyah Miftahul Huda</h4>
                               </div>
                               <h6 class="text-muted">Biasa disebut <span class="font-weight-bold">Panitia Sembilan</span></h6>
                               <div class="timeline-body">
@@ -58,9 +58,9 @@
                       </li>
                       <li>
                           <div class="timeline-image">
-                              <h4>Dibangun
+                              <h4>Diresmikan
                                   <br>Tahun
-                                  <br>1968
+                                  <br>1969
                               </h4>
                               <!-- <img class="rounded-circle img-fluid" src="<?php echo base_url(); ?>" alt=""> -->
                           </div>
