@@ -9,43 +9,44 @@
                 <div class="footer-logo mb-2">
                   <a href="<?php echo base_url(); ?>"><img class="" src="<?php echo base_url(); ?>images/logonu.svg" height="100" alt=""></a>
                 </div>
-                <div class="contact-address">
-                  <div class="contact-item mb-3 mb-md-4">
-                    <p>17504 Carlton Cuevas Rd, <br>Gulfport, MS, 39503</p>
-                  </div>
-                  <div class="contact-item mb-3 mb-md-4">
-                    <h4 class="mb-0 font-weight-normal"><a href="#">+(704) 279-1249</a></h4>
-                  </div>
-                  <div class="contact-item">
-                    <a href="#">letstalk@guruma.com</a>
-                  </div>
+                <div class="footer-link contact-item">
+                  <a>
+                    Menciptakan generasi Islam berhaluan Ahlussunah Wal Jama'ah demi terwujudnya peserta didik yang unggul, berilmu manfaat, dan berakhlaqul karimah </a>
                 </div>
               </div>
             </div>
             <div class="col-sm-6 col-xl-3 col-lg-4 mb-4 mb-lg-0">
-              <h5 class="footer-title">Explore</h5>
+              <h5 class="footer-title">Tentang Miftahul Huda</h5>
               <div class="footer-link">
                 <ul class="list-unstyled mb-0">
-                  <li><a href="<?php echo base_url('pages/aboutus'); ?>">About us</a></li>
-                  <li><a href="<?php echo base_url('course/teachers'); ?>">Teachers</a></li>
-                  <li><a href="<?php echo base_url('pages/contactus'); ?>">Contact us</a></li>
+                  <li><a href="<?php echo base_url(''); ?>">Beranda</a></li>
+                  <li><a href="<?php echo base_url(''); ?>">Sejarah</a></li>
+                  <li><a href="<?php echo base_url('pendidikan/courselist'); ?>">Pendidikan</a></li>
+                  <li><a href="<?php echo base_url('pendidikan/gallery'); ?>">Pages</a></li>
+                  <li><a href="<?php echo base_url('blog/bloggeneral'); ?>">Blog</a></li>
                 </ul>
                 <ul class="list-unstyled mb-0">
-                  <li><a href="<?php echo base_url('course/courselist'); ?>">Courses</a></li>
-                  <li><a href="<?php echo base_url('pages/privacy'); ?>">Privacy Policy</a></li>
+                <li><a href="<?php echo base_url('produk/toko'); ?>">Produk</a></li>
+                  <li><a href="<?php echo base_url('pendidikan/teachers'); ?>">Pengajar</a></li>
+                  <li><a href="<?php echo base_url('pages/tentangkami'); ?>">Tentang Kami</a></li>
+                  <li><a href="<?php echo base_url('pages/hubungikami'); ?>">Hubungi Kami</a></li>
                 </ul>
               </div>
             </div>
             <div class="col-sm-6 col-xl-3 col-lg-2 mb-4 mb-sm-0">
-              <h5 class="footer-title">Resources</h5>
-              <div class="footer-link">
-                <ul class="list-unstyled mb-0">
-                  <li><a href="#">Donors</a></li>
-                  <li><a href="#">Educators</a></li>
-                  <li><a href="#">Professionals</a></li>
-                  <li><a href="#">Become A Teacher</a></li>
-                  <li><a href="#">Student Profile</a></li>
-                </ul>
+              <h5 class="footer-title">Alamat</h5>
+              <div class="footer-contact-info">
+                <div class="contact-address">
+                  <div class="contact-item mb-3 mb-md-4">
+                    <p>Madin Miftahul Huda</p>
+                  </div>
+                  <div class="contact-item mb-3 mb-md-4">
+                    <h4 class="mb-0 font-weight-normal"> <a href="#">0822-2833-1205</a></h4>
+                  </div>
+                  <div class="contact-item">
+                    <a class="text-dark">JI. Tahunan - Batealit, Bawu 09/02, 59461</a>
+                  </div>
+                </div>
               </div>
             </div>
             <div class="col-sm-6 col-lg-3">

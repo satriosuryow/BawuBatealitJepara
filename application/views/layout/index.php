@@ -12,7 +12,7 @@
   <title><?php echo $title; ?></title>
 
   <!-- Favicon -->
-  <link rel="shortcut icon" href="<?= base_url(); ?>images/favicon.ico" />
+  <link rel="shortcut icon" href="<?= base_url(); ?>images/logonu.svg" />
 
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
@@ -28,6 +28,9 @@
   <link rel="stylesheet" href="<?= base_url(); ?>css/swiper/swiper.min.css" />
   <link rel="stylesheet" href="<?= base_url(); ?>css/magnific-popup/magnific-popup.css" />
   <link rel="stylesheet" href="<?= base_url(); ?>css/animate/animate.min.css" />
+  <!-- Page CSS Implementing Plugins (Remove the plugin CSS here if site does not use that feature) -->
+  <link rel="stylesheet" href="<?php echo base_url(); ?>css/slick/slick-theme.css" />
+  <link rel="stylesheet" href="<?php echo base_url(); ?>css/agency.css" />
 
   <!-- Template Style -->
   <link rel="stylesheet" href="<?= base_url(); ?>css/style.css" />
@@ -40,7 +43,7 @@
     Header -->
   <!--=================================
     Modal login -->
-  <?php if ($action == 'Home') {
+  <?php if ($action == 'Beranda') {
     include "headerhome.php";
   } else {
     include "header.php";
@@ -55,14 +58,14 @@
   <!--=================================
     Banner -->
 
-  <?php if ($action == 'Home') {
+  <?php if ($action == 'Beranda') {
     include "bannerhome.php";
   } else if ($action == 'CourseGrid') {
     include "innerheader.php";
   } else if ($action == 'Events') {
     include "events.php";
-  // } else if ($action == 'EventDetail' || $action == 'Teachers' || $action == 'TeacherDetail' || $action == 'AboutUs' || $action == 'ContactUs' || $action == 'Gallery' || $action == 'Login' || $action == 'Privacy') {
-  //   include "eventdetail.php";
+    // } else if ($action == 'EventDetail' || $action == 'Teachers' || $action == 'TeacherDetail' || $action == 'AboutUs' || $action == 'ContactUs' || $action == 'Gallery' || $action == 'Login' || $action == 'Privacy') {
+    //   include "eventdetail.php";
   } else {
     include "eventdetail.php";
   }
@@ -73,7 +76,7 @@
 
   <!--=================================
     categories-style-03 -->
-  <?php if ($action == 'Home') {
+  <?php if ($action == 'Beranda') {
     include "categories.php";
   }
   ?>
@@ -91,7 +94,7 @@
     Back To Top -->
   <!--=================================
     footer-->
-  <?php if ($action == 'Home') {
+  <?php if ($action == 'Beranda') {
     include "footerhome.php";
   } else {
     include "footer.php";
@@ -125,6 +128,7 @@
 
   <!-- Template Scripts (Do not remove)-->
   <script src="<?= base_url(); ?>js/custom.js"></script>
+  <script src="<?= base_url(); ?>js/slick/slick.min.js"></script>
 
 </body>
 

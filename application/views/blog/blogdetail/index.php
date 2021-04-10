@@ -1,6 +1,6 @@
    <!--=================================
     blog single -->
-   <section class="space-ptb">
+    <section class="space-ptb">
        <div class="container">
            <div class="row">
                <div class="col-md-7 col-xl-8">

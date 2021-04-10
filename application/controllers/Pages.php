@@ -5,22 +5,22 @@ defined('BASEPATH') or exit('No direct script access allowed');
 class Pages extends CI_Controller
 {
 
-    public function aboutus()
+    public function tentangkami()
     {
-        $data['action'] = 'AboutUs';
+        $data['action'] = 'tentangkami';
         $data['title'] = 'Pages - Bawu Batealit Jepara';
-        $data['banner_name'] = 'About Us';
-        $data['content'] = 'pages/aboutus/index.php';
-        $data['script'] = 'pages/aboutus/script.php';
+        $data['banner_name'] = 'Tentang Kami';
+        $data['content'] = 'pages/tentangkami/index.php';
+        $data['script'] = 'pages/tentangkami/script.php';
         $this->load->view('layout/index.php', $data);
     }
-    public function contactus()
+    public function hubungikami()
     {
-        $data['action'] = 'ContactUs';
+        $data['action'] = 'hubungikami';
         $data['title'] = 'Pages - Bawu Batealit Jepara';
-        $data['banner_name'] = 'Contact Us';
-        $data['content'] = 'pages/contactus/index.php';
-        $data['script'] = 'pages/contactus/script.php';
+        $data['banner_name'] = 'Hubungi Kami';
+        $data['content'] = 'pages/hubungikami/index.php';
+        $data['script'] = 'pages/hubungikami/script.php';
         $this->load->view('layout/index.php', $data);
     }
     public function gallery()

@@ -40,8 +40,8 @@
           </div>
           <div class="col-md-3">
             <h4 class="mb-4">Contact Detail</h4>
-            <p class="mb-2">6580 Allison Turnpike Creminfort, AL 32808-4509</p>
-            <p class="mb-2"><b class="text-dark">Call us:</b>  +123 4567 8910</p>
+            <p class="mb-2">JI. Tahunan - Batealit, Bawu 09/02, 59461</p>
+            <p class="mb-2"><b class="text-dark">Call us:</b>  0822-2833-1205</p>
             <p class="mb-4"><b class="text-dark">Mail us:</b>  support@online-courses.com</p>
             <div class="social-icon-round icon-sm">
               <ul>

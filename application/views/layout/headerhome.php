@@ -4,38 +4,41 @@
     <nav class="navbar navbar-static-top navbar-expand-lg px-3 px-md-5">
       <div class="container-fluid position-relative px-0">
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target=".navbar-collapse"><i class="fas fa-align-left"></i></button>
-        <a class="navbar-brand" href="<?php echo base_url(); ?>">
-          <img class="img-fluid" src="<?php echo base_url(); ?>images/logonu.svg" alt="logo">
+        <a class="navbar-brand text-dark" href="<?php echo base_url(); ?>">
+          <img class="img-fluid" src="<?php echo base_url(); ?>images/logonu.svg" alt="logo"> Madin Miftahul Huda
         </a>
         <a class="navbar-brand navbar-brand-sticky" href="<?php echo base_url(); ?>">
-          <img class="img-fluid" src="<?php echo base_url(); ?>images/logonu.svg" alt="logo">
+          <img class="img-fluid" src="<?php echo base_url(); ?>images/logonu.svg" alt="logo"> Madin Miftahul Huda
         </a>
         <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
+          <ul class="nav navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="<?= base_url(); ?>">Home</a>
+              <a class="nav-link" href="<?= base_url(); ?>">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="<?= base_url('sejarah'); ?>">Sejarah</a>
             </li>
             <li class="dropdown nav-item">
-              <a class="nav-link" href="javascript:void(0)" data-toggle="dropdown">Course<i class="fas fa-chevron-down fa-xs"></i></a>
+              <a class="nav-link" href="javascript:void(0)" data-toggle="dropdown">Pendidikan<i class="fas fa-chevron-down fa-xs"></i></a>
               <ul class="dropdown-menu megamenu dropdown-menu-md">
                 <li>
                   <div class="row no-gutters">
                     <div class="col-sm-6">
                       <h6 class="nav-title">Course Pages</h6>
                       <ul class="list-unstyled mt-lg-1">
-                        <li><a class="dropdown-item" href="<?php echo base_url('course/courselist'); ?>"><span>Course List</span></a></li>
-                        <li><a class="dropdown-item" href="<?php echo base_url('course/coursegrid'); ?>"><span>Course Grid</span></a></li>
-                        <li><a class="dropdown-item" href="<?php echo base_url('course/coursedetail'); ?>"><span>Course Detail</span></a></li>
-                        <li><a class="dropdown-item" href="<?php echo base_url('course/membership'); ?>"><span>Membership Levels</span></a></li>
+                        <li><a class="dropdown-item" href="<?php echo base_url('pendidikan/courselist'); ?>"><span>Course List</span></a></li>
+                        <li><a class="dropdown-item" href="<?php echo base_url('pendidikan/coursegrid'); ?>"><span>Course Grid</span></a></li>
+                        <li><a class="dropdown-item" href="<?php echo base_url('pendidikan/coursedetail'); ?>"><span>Course Detail</span></a></li>
+                        <li><a class="dropdown-item" href="<?php echo base_url('pendidikan/membership'); ?>"><span>Membership Levels</span></a></li>
                       </ul>
                     </div>
                     <div class="col-sm-6">
                       <h6 class="nav-title">Course Pages</h6>
                       <ul class="list-unstyled mt-lg-1">
-                        <li><a class="dropdown-item" href="<?php echo base_url('course/events'); ?>"><span>Events</span></a></li>
-                        <li><a class="dropdown-item" href="<?php echo base_url('course/eventdetail'); ?>"><span>Event Detail</span></a></li>
-                        <li><a class="dropdown-item" href="<?php echo base_url('course/teachers'); ?>"><span>Teachers</span></a></li>
-                        <li><a class="dropdown-item" href="<?php echo base_url('course/teacherdetail'); ?>"><span>Teacher Detail</span></a></li>
+                        <li><a class="dropdown-item" href="<?php echo base_url('pendidikan/events'); ?>"><span>Events</span></a></li>
+                        <li><a class="dropdown-item" href="<?php echo base_url('pendidikan/eventdetail'); ?>"><span>Event Detail</span></a></li>
+                        <li><a class="dropdown-item" href="<?php echo base_url('pendidikan/teachers'); ?>"><span>Teachers</span></a></li>
+                        <li><a class="dropdown-item" href="<?php echo base_url('pendidikan/teacherdetail'); ?>"><span>Teacher Detail</span></a></li>
                       </ul>
                     </div>
                   </div>
@@ -50,8 +53,8 @@
                     <div class="col-sm-6 col-md-4">
                       <h6 class="nav-title">Basic Pages</h6>
                       <ul class="list-unstyled mt-lg-1">
-                        <li><a class="dropdown-item" href="<?php echo base_url('pages/aboutus'); ?>"><span>About us</span></a></li>
-                        <li><a class="dropdown-item" href="<?php echo base_url('pages/contactus'); ?>"><span>Contact us</span></a></li>
+                        <li><a class="dropdown-item" href="<?php echo base_url('pages/tentangkami'); ?>"><span>Tentang Kami</span></a></li>
+                        <li><a class="dropdown-item" href="<?php echo base_url('pages/hubungikami'); ?>"><span>Hubungi kami</span></a></li>
                         <li><a class="dropdown-item" href="<?php echo base_url('pages/gallery'); ?>"><span>Gallery</span></a></li>
                         <li><a class="dropdown-item" href="<?php echo base_url('pages/login'); ?>"><span>login</span></a></li>
                       </ul>
@@ -68,23 +71,36 @@
                 </li>
               </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="<?php echo base_url('blog'); ?>">Blog</a>
+            <li class="dropdown nav-item">
+              <a class="nav-link" href="javascript:void(0)" data-toggle="dropdown">Blog<i class="fas fa-chevron-down fa-xs"></i></a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="<?php echo base_url('blog/bloggeneral'); ?>"><span>Blog</span></a></li>
+                <li><a class="dropdown-item" href="<?php echo base_url('blog/blogdetail'); ?>"><span>Blog Detail</span></a></li>
+              </ul>
             </li>
-            <li><a class="nav-link" href="<?php echo base_url('pages/contactus'); ?>">Contact us</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Produk<i class="fas fa-chevron-down fa-xs"></i></a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="<?php echo base_url('produk/toko'); ?>"><span>Toko</span></a></li>
+                <li><a class="dropdown-item" href="<?php echo base_url('produk/keranjang'); ?>"><span>Keranjang</span></a></li>
+                <li><a class="dropdown-item" href="<?php echo base_url('produk/checkout'); ?>"><span>Checkout</span></a></li>
+                <li><a class="dropdown-item" href="<?php echo base_url('produk/detailproduk'); ?>"><span>Detail Produk</span></a></li>
+              </ul>
+            </li>
+            <li><a class="nav-link" href="<?php echo base_url('pages/hubungikami'); ?>">Hubungi Kami</a></li>
           </ul>
         </div>
-        <div class="search-category ml-auto">
-          <form class="form-inline" data-swiper-animation="fadeInUp" data-duration="2.0s" data-delay="1.0s">
+        <!-- <div class="search-category ml-auto">
+          <form class="form-inline" data-swiper-animation="fadeInUp" data-duratFion="2.0s" data-delay="1.0s">
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Search Courses...">
+              <input type="text" class="form-control" placeholder="Cari...">
             </div>
             <button type="submit" class="btn btn-dark"><i class="fa fa-search"></i></button>
           </form>
-        </div>
-        <div class="woo-action">
+        </div> -->
+        <!-- <div class="woo-action">
           <ul class="list-unstyled">
-            <li class="user"><a data-toggle="modal" data-target="#loginModal" href="#">Hello sign in<i class="fa fa-user pl-2 text-primary"></i></a></li>
+            <li class="user"><a data-toggle="modal" data-target="#loginModal" href="#"><i class="fa fa-user pl-2 text-primary"></i></a></li>
             <li class="cart dropdown">
               <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="cart-icon"><i class="fas fa-shopping-cart"></i></span></button>
               <div class="dropdown-menu-right" aria-labelledby="dropdownMenuButton">
@@ -119,7 +135,7 @@
               </div>
             </li>
           </ul>
-        </div>
+        </div> -->
       </div>
     </nav>
   </header>
